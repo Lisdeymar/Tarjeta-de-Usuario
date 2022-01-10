@@ -1,0 +1,70 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 600px;
+    border: 3px solid rgb(196, 194, 194);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(11, 167, 206)
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.sea{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+.img1 {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+    position: absolute;
+    top: 55px;
+    margin-left: 30px;
+}
+img {
+    height: auto;
+    width: auto;
+    max-height: 20px;
+    max-width: 20px;
+}
+.configuracion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+.profesion{
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.tuerca{
+    margin: 0;
+    margin-right: 10px;
+}
